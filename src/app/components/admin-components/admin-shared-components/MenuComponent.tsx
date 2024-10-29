@@ -165,8 +165,16 @@ const MenuComponent = () => {
                     open= {showcaseState}
                     icon= {!collapseMenuState && (enrollState ? <BiChevronUp/> : <BiChevronDown/>)}
                     className={`${showcaseState && "bg-gray-50"}`}
+                    placeholder= {""}
+                        onPointerEnterCapture= {() => {}}
+                        onPointerLeaveCapture= {() => {}}
                 >
-                    <AccordionHeader onClick={() => setShowcaseState(enrollState => !enrollState)} className='py-2'>
+                    <AccordionHeader 
+                    onClick={() => setShowcaseState(enrollState => !enrollState)} className='py-2'
+                    placeholder= {""}
+                        onPointerEnterCapture= {() => {}}
+                        onPointerLeaveCapture= {() => {}}
+                    >
                         <div className= {`${navAdminValue === "Clothes" || navAdminValue === "Shoes" || navAdminValue === "Accessories" ? "text-[#FF8C00] font-bold" : "font-normal"} cursor-pointer py-2 pl-2 w-full flex justify-start items-center gap-x-3`}>
                             <SiAffinityphoto className='size-[20px]'/>
 
