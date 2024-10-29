@@ -40,7 +40,7 @@ const ShowcasesFormComponent:React.FC<IShowCaseType> = ({showCase}) => {
         }
 
         else{
-            const {[pictureIndex]:_, ...remainingItems}= pickPicture;
+            const remainingItems = (({ [pictureIndex]: _, ...rest }) => rest)(pickPicture);
             setPickPicture({...remainingItems});
             setProductsData(
                 values  => {

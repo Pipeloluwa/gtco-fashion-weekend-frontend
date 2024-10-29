@@ -1,7 +1,7 @@
 
 "use client";
 import { ChangeEvent, FormEventHandler, LegacyRef, useEffect, useRef, useState } from 'react';
-import { Button, Dialog, DialogBody, Spinner, Input, Textarea } from '@material-tailwind/react';
+import { Button, Dialog, DialogBody, Input, Textarea } from '@material-tailwind/react';
 import { MdCancel, MdOutlineDone } from 'react-icons/md';
 
 import { rubikFont } from '@/app/fonts/fontsConfig';

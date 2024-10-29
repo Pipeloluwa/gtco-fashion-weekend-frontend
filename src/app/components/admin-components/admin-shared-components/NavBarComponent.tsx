@@ -2,7 +2,7 @@
 import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
 import { IoArrowUndo } from "react-icons/io5";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { setCollapseMenuState } from "@/app/state_management/reducers/admin-reducers/collapseMenuState";
 import { useDispatch, useSelector } from "react-redux";

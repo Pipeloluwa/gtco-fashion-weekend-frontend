@@ -8,12 +8,12 @@ import PollsTabsComponents from "@/app/components/admin-components/polls-compone
 
 
 
-interface IDesignerUsersBase{
-  username: string;
-  email: string;
-  created: Date;
-  picture: string;
-}
+// interface IDesignerUsersBase{
+//   username: string;
+//   email: string;
+//   created: Date;
+//   picture: string;
+// }
 
 
 const PageIndex= ()=> {

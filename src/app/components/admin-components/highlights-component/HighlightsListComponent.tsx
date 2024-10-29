@@ -4,7 +4,7 @@ import { RiDeleteBinLine } from 'react-icons/ri';
 import PromptComponent from '@/app/components/shared-components/PromptComponent';
 import SuccessComponent from '@/app/components/shared-components/SuccessComponent';
 import { Select, Option } from '@material-tailwind/react';
-import { IHighlightList, IHighlightsBase } from '@/app/interfaces/admin-interfaces/HighlightsInterfaces';
+import { IHighlightList } from '@/app/interfaces/admin-interfaces/HighlightsInterfaces';
 import Link from 'next/link';
 
 

@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import HistogramChartComponent from "@/app/components/admin-components/analytics-components/HistogramChartComponent";
 import { setNavAdminValue, setNavBackButton } from "@/app/state_management/reducers/admin-reducers/navAdminValue";
 import { useDispatch } from "react-redux";

@@ -3,7 +3,7 @@ import { Pie } from "react-chartjs-2";
 import { CategoryScale, Chart, LinearScale } from "chart.js";
 import { BarElement, ArcElement } from "chart.js";
 
-import React, { useState } from "react";
+import React from "react";
 
 
 

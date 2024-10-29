@@ -3,7 +3,6 @@ import AnimatedLoadingComponent from '@/app/components/shared-components/Animate
 import { rubikFont } from '@/app/fonts/fontsConfig';
 import { IHighlightsSingle } from '@/app/interfaces/admin-interfaces/HighlightsInterfaces';
 import { IPickPicture } from '@/app/interfaces/admin-interfaces/shared-interfaces/ISharedInterfces';
-import { ISlugInterface } from '@/app/interfaces/shared-interfaces/SlugInterface';
 import { setNavAdminValue, setNavBackButton } from '@/app/state_management/reducers/admin-reducers/navAdminValue';
 import { Button } from '@material-tailwind/react';
 import Image from 'next/image';
@@ -66,7 +65,7 @@ const PageIndex = () => {
         }
 
         else{
-            const {[pictureIndex]:_, ...remainingItems}= pickPicture;
+            const remainingItems = (({ [pictureIndex]: _, ...rest }) => rest)(pickPicture);
             setPickPicture({...remainingItems});
             setDesignerHighlights(
                 values  => {
