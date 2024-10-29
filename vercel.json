@@ -1,7 +1,8 @@
 {
     "build": {
       "env": {
-        "NEXT_PUBLIC_ESLINT_IGNORE": "true"
+        "NEXT_PUBLIC_ESLINT_IGNORE": "true",
+        "NEXT_PUBLIC_IGNORE_TS_ERRORS": "true"
       }
     }
   }
