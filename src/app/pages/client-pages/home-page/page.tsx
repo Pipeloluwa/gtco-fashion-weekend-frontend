@@ -25,7 +25,7 @@ const HomeIndex = () => {
 
   const parentDivRef :React.MutableRefObject<HTMLDivElement | null>= useRef(null);
   const dispatch= useDispatch();
-  const [blackOutDone, setBlackOutDone]= useState<boolean>(true);
+  const [blackOutDone, setBlackOutDone]= useState<boolean>(false);
   
 
 
