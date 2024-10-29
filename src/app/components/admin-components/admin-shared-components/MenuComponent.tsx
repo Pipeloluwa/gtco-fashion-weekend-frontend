@@ -55,6 +55,9 @@ const MenuComponent = () => {
                     open= {enrollState}
                     icon= {!collapseMenuState && (enrollState ? <BiChevronUp/> : <BiChevronDown/>)}
                     className={`${enrollState && "bg-gray-50"}`}
+                    placeholder= {""}
+                    onPointerEnterCapture= {() => {}}
+                    onPointerLeaveCapture= {() => {}}
                 >
                     <AccordionHeader onClick={() => setEnrollState(enrollState => !enrollState)} className='py-2'>
                         <div className= {`${navAdminValue === "Designer" || navAdminValue === "Model" ? "text-[#FF8C00] font-bold" : "font-normal"} cursor-pointer py-2 pl-2 w-full flex justify-start items-center gap-x-3`}>
