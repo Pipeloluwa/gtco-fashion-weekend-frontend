@@ -65,7 +65,8 @@ const PageIndex = () => {
         }
 
         else{
-            const remainingItems = (({ [pictureIndex]: _, ...rest }) => rest)(pickPicture);
+            const {[pictureIndex]:_, ...remainingItems}= pickPicture;
+            console.log(_);
             setPickPicture({...remainingItems});
             setDesignerHighlights(
                 values  => {

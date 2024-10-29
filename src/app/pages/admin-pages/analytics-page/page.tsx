@@ -10,7 +10,7 @@ import { NextPage } from "next";
 
 
 
-export let selected_models= [];
+export const selected_models= [];
 
 const PageIndex: NextPage = ()=> {
 
