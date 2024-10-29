@@ -13,7 +13,7 @@ const PollsCategoryComponent:React.FC<IPollsCategory> = ({title, pollsData, vote
             </h1>
             
 
-            <div className='w-full grid grid-cols-3 gap-x-3 gap-y-8 border bg-gray-100 p-5 shadow-xl shadow-300'>
+            <div className='w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-3 gap-y-8 border bg-gray-100 p-5 shadow-xl shadow-300'>
                 {
                     pollsData.map((item, index) => 
                         <div key={`userVotesCloth${index}`} className={`${voteCategory=== item.id ? "bg-green-200" : "bg-white"} p-4 h-[450px] w-[360px] flex flex-col justify-center gap-y-3 rounded-3xl overflow-hidden shadow-md drop-shadow-lg shadow-gray-500`}>

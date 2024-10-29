@@ -25,7 +25,7 @@ const ImageListComponent:React.FC<IImageList> = ({title, content, images}) => {
         >
             <div className="flex items-center justify-center h-screen bg-black bg-opacity-60">
                 <div className='flex flex-col gap-2  text-white'>
-                    <h1 className='-mt-20 animated-background-text1 inline-block text-transparent hover:from-black/0 pb-2 lg:text-8xl md:text-7xl sm:text-5xl text-4xl font-extrabold  glow:bg-black glow:text-orange-500'>
+                    <h1 className='-mt-20 animated-background-text1 inline-block text-transparent hover:from-black/0 pb-2  text-center md:text-6xl lg:text-8xl text-6xl    font-extrabold  glow:bg-black glow:text-orange-500'>
                         {title}
                     </h1>
                 
@@ -35,8 +35,8 @@ const ImageListComponent:React.FC<IImageList> = ({title, content, images}) => {
 
 
         <div>
-          <p className='w-[75%] mx-auto flex justify-center items-center -mt-[70px]
-             text-center text-white font-semibold px-20 py-12 bg-orange-700 rounded-lg shadow-xl shadow-gray-500'>
+          <p className='md:w-[75%] w-[80%] mx-auto flex justify-center items-center -mt-[160px] lg:-mt-[70px] md:-mt-[100px]
+             text-center text-white font-semibold md:px-16 px-8 lg:py-12 py-6 bg-orange-700 rounded-lg shadow-md shadow-gray-500'>
             {content}
           </p>
       </div>

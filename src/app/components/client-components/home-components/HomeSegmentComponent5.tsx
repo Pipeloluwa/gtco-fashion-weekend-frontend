@@ -21,12 +21,12 @@ const HomeSegmentComponent5=()=> {
         portfolio_link: "www.louious.com",
     },
     products:[
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000}
+        {picture: "/images/pictures/woman-6670772_1280.webp",name: "CharmLuxe", price: 10000000},
+        {picture: "/images/pictures/ai-generated-8195533_1280.webp",name: "VibeCrest", price: 10000000},
+        {picture: "/images/pictures/fashion-3080626_1280.webp",name: "ZenBraid", price: 10000000},
+        {picture: "/images/pictures/drake-s-takes-vKnRYW-mtek-unsplash.webp",name: "NovaLoom", price: 10000000},
+        {picture: "/images/pictures/AdobeStock_485804515.webp",name: "AuraGem", price: 10000000},
+        {picture: "/images/pictures/4.webp",name: "CrystalCurve", price: 10000000}
     ]
      
 };
@@ -40,12 +40,12 @@ const HomeSegmentComponent5=()=> {
         portfolio_link: "www.louious.com",
     },
     products:[
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000}
+        {picture: "/images/pictures/oxford-shoes-6078993_1280.webp",name: "UrbanWeave", price: 10000000},
+        {picture: "/images/pictures/fashion-1284496_1280.webp",name: "ZenFit", price: 10000000},
+        {picture: "/images/pictures/domino-studio-164_6wVEHfI-unsplash.webp",name: "PrimeStitch", price: 10000000},
+        {picture: "/images/pictures/brogue-shoes-5983822_1280.webp",name: "WildWool", price: 10000000},
+        {picture: "/images/pictures/malvestida-DMl5gG0yWWY-unsplash.webp",name: "FusionCotton", price: 10000000},
+        {picture: "/images/pictures/shoes-1433925_1280.webp",name: "NovaLoom", price: 10000000}
     ]
      
 };
@@ -59,12 +59,12 @@ const HomeSegmentComponent5=()=> {
         portfolio_link: "www.louious.com",
     },
     products:[
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000},
-        {picture: "/images/pictures/woman-6670772_1280.webp",name: "Royal Apparel", price: 10000000}
+        {picture: "/images/pictures/accessory-3002608_1280.webp",name: "StrideWave", price: 7000000},
+        {picture: "/images/pictures/cap-1662654_1280.webp",name: "AeroStride", price: 54000},
+        {picture: "/images/pictures/watch-140487_1280.webp",name: "ZenWalk", price: 240400},
+        {picture: "/images/pictures/male-watch-144648_1280.webp",name: "LuxeTread", price: 23800},
+        {picture: "/images/pictures/glasses-3965545_1280.webp",name: "ShadowGrip", price: 7900},
+        {picture: "/images/pictures/time-3091031_1280.webp",name: "PeakFlow", price: 83400}
     ]
      
 };
@@ -116,7 +116,7 @@ const HomeSegmentComponent5=()=> {
   
   return (
 
-    <div className='flex flex-col justify-center items-center w-[75%] mx-auto gap-y-6'>
+    <div className='lg:flex hidden flex-col justify-center items-center w-[75%] mx-auto gap-y-6'>
       
       {
         dialogState
@@ -158,7 +158,7 @@ const HomeSegmentComponent5=()=> {
               speed={1400} 
               autoplay={true} 
               pauseOnHover={true}
-              className="w-[85%] h-full flex justify-center items-center overflow-hidden rounded-3xl"
+              className="w-[85%] h-full  justify-center items-center overflow-hidden rounded-3xl"
             >
               {
                     clothesCategoryData.products.map((item, index) => {

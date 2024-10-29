@@ -8,11 +8,11 @@ const DesignersListsComponent:React.FC<IDesignerData> = ({designerData}) => {
                 {`Designers`}
             </h1>
 
-            <div className='w-[280px] py-2'>
-                <div className=' flex flex-col items-center whitespace-nowrap scroll-smooth h-svh w-[270px] overflow-hidden overflow-y-scroll'>
+            <div className='lg:w-[280px] w-full py-2'>
+                <div className=' flex gap-4 lg:flex-col items-center whitespace-nowrap scroll-smooth h-svh lg:w-[270px] w-full overflow-hidden scrollbar-hide overflow-x-scroll lg:overflow-y-scroll'>
 
                     {designerData.map((design, index) => (
-                        <div key={`designData${index}`} className='inline-block px-2 cursor-pointer pt-2 pb-4 w-56 font-bold shadow-xl bg-white'>
+                        <div key={`designData${index}`} className='inline-block px-2 cursor-pointer pt-2 pb-4 min-w-56 font-bold shadow-xl bg-white'>
                         <div className='h-44 overflow-hidden'>
                                 <img
                                     src={design.image}
@@ -30,6 +30,7 @@ const DesignersListsComponent:React.FC<IDesignerData> = ({designerData}) => {
                 </div>
 
             </div>
+
         </div>
     )
 }

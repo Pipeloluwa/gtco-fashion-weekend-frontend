@@ -6,7 +6,7 @@ const HomeSegmentComponent2 = () => {
   return (
     <div className='w-[75%] mx-auto '>
         <div className='flex flex-col justify-center items-center gap-y-6'>
-            <h1 className='text-5xl tracking-widest text-orange-800'>
+            <h1 className='md:text-5xl text-4xl tracking-widest text-orange-800'>
                 {"Live Feed"}
             </h1>
 

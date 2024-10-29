@@ -20,8 +20,8 @@ const HomeSegmentComponent4:React.FC<IHomeSegmentComponent4> = ({ days, hours, m
 
     return (
         <div className=' h-full mx-auto flex flex-col justify-center items-center gap-y-6'>
-            
-            <h1 className='text-5xl tracking-widest text-orange-800'>
+                
+            <h1 className='md:text-5xl text-4xl text-center tracking-widest text-orange-800'>
                 {"Upcoming Event"}
             </h1>
 
@@ -38,10 +38,10 @@ const HomeSegmentComponent4:React.FC<IHomeSegmentComponent4> = ({ days, hours, m
 
                 <div className='absolute left-0 right-0 top-0 bottom-0 flex flex-col justify-center items-center gap-x-4 gap-y-8'>
 
-                    <div className="flex justify-center items-center w-[600px] gap-x-6">
+                    <div className="flex justify-center items-center md:w-[600px] w-full md:gap-x-6 gap-x-3 px-20">
 
                         <div className="flex flex-col w-full h-full justify-center items-center gap-y-2">
-                            <div className='size-[150px] rounded-2xl bg-white border shadow-sm shadow-gray-800 p-4 flex justify-center items-center text-orange-800 text-7xl'>
+                            <div className='lg:size-[150px] size-[75px] rounded-2xl bg-white border shadow-sm shadow-gray-800 p-4 flex justify-center items-center text-orange-800 md:text-7xl text-3xl'>
                                 {days}
                             </div>
 
@@ -49,7 +49,7 @@ const HomeSegmentComponent4:React.FC<IHomeSegmentComponent4> = ({ days, hours, m
                         </div>
 
                         <div className="flex flex-col w-full h-full justify-center items-center gap-y-2">
-                            <div className='size-[150px] rounded-2xl bg-white border shadow-sm shadow-gray-800 p-4 flex justify-center items-center text-orange-800 text-7xl'>
+                            <div className='lg:size-[150px] size-[75px] rounded-2xl bg-white border shadow-sm shadow-gray-800 md:p-4 p-1 flex justify-center items-center text-orange-800  md:text-7xl text-3xl'>
                                 {hours}
                             </div>
 
@@ -57,7 +57,7 @@ const HomeSegmentComponent4:React.FC<IHomeSegmentComponent4> = ({ days, hours, m
                         </div>
 
                         <div className="flex flex-col w-full h-full justify-center items-center gap-y-2">
-                            <div className='size-[150px] rounded-2xl bg-white border shadow-sm shadow-gray-800 p-4 flex justify-center items-center text-orange-800 text-7xl'>
+                            <div className='lg:size-[150px] size-[75px] rounded-2xl bg-white border shadow-sm shadow-gray-800 md:p-4 p-1 flex justify-center items-center text-orange-800  md:text-7xl text-3xl'>
                                 {minutes}
                             </div>
 
@@ -65,7 +65,7 @@ const HomeSegmentComponent4:React.FC<IHomeSegmentComponent4> = ({ days, hours, m
                         </div>
 
                         <div className="flex flex-col w-full h-full justify-center items-center gap-y-2">
-                            <div className='size-[150px] rounded-2xl bg-white border shadow-sm shadow-gray-800 p-4 flex justify-center items-center text-orange-800 text-7xl'>
+                            <div className='md:size-[150px] size-[75px] rounded-2xl bg-white border shadow-sm shadow-gray-800 md:p-4 p-1 flex justify-center items-center text-orange-800  md:text-7xl text-3xl'>
                                 {seconds}
                             </div>
 

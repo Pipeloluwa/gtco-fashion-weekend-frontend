@@ -16,11 +16,11 @@ const HomeSegmentComponent3 = () => {
   return (
     <div className='flex flex-col gap-y-8'>
         <div className='w-[75%] mx-auto flex flex-col justify-center items-center gap-y-6'>
-            <h1 className='text-5xl tracking-widest text-orange-800'>
+            <h1 className='md:text-5xl text-4xl tracking-widest text-orange-800'>
                 {"Get Inspired"}
             </h1>
 
-            <p className={`${rubikFont.className} w-[60%] mx-auto text-center`}>
+            <p className={`${rubikFont.className} md:w-[60%] w-[80%] mx-auto text-center`}>
                 {"From boardrooms to courtrooms to runways and everywhere in between, we all have our unique sense of style, and Together, we are Africa's Finest."}
             </p>
         
@@ -31,7 +31,7 @@ const HomeSegmentComponent3 = () => {
             {
                 inspirationData.map((item, index) => {
                     return (
-                        <div key={`inspirationalKey${index}`} className='relative overflow-hidden h-[400px] w-[350px] flex flex-col items-center bg-gray-500 rounded-3xl mx-5 shadow-md drop-shadow-lg shadow-gray-600'>
+                        <div key={`inspirationalKey${index}`} className='relative overflow-hidden md:h-[400px] h-[350px] md:w-[350px] w-[300px]  flex flex-col items-center bg-gray-500 rounded-3xl mx-5 shadow-md drop-shadow-lg shadow-gray-600'>
                             <Image priority={true} quality={100} alt='picture' src={item.picture} width={350} height={400} className='absolute top-0 bottom-0 left-0 right-0 flex w-full h-full object-cover'>
                             </Image>
 

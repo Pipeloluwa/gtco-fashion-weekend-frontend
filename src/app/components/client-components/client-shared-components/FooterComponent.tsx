@@ -1,8 +1,6 @@
 import { useRef } from "react";
 import {
-    FaDribbbleSquare,
     FaFacebookSquare,
-    FaGithubSquare,
     FaInstagram,
     FaTwitterSquare
 } from 'react-icons/fa';
@@ -43,54 +41,24 @@ const FooterComponent= () =>{
                     >
                     
                     <FaFacebookSquare size={30} />
-                    <FaGithubSquare size={30}/>
                     <FaInstagram size={30}/>
                     <FaTwitterSquare size={30}/>
-                    <FaDribbbleSquare size={30}/>
                 </motion.div>
             </div>
 
 
-            <div className="lg:col-span-2 flex justify-between mx-4 pt-7">
+            <div className="flex justify-between mx-4 pt-7">
                 <motion.ul
                     initial= "offscreen"
                     variants={cardVariantsUp4}
                 
                     animate= {inView ? "onscreen" : "offscreen"}
                     >
-                    <h6 className="font-medium text-white">SOLUTIONS</h6>
-                    <li className="py-2 text-sm">Analytics</li>
-                    <li className="py-2 text-sm">Marketing</li>
-                    <li className="py-2 text-sm">Commerce</li>
-                    <li className="py-2 text-sm">Insights</li>
-                </motion.ul>
-
-                <motion.ul
-                    initial= "offscreen"
-                    variants={cardVariantsUp4}
-                
-                    animate= {inView ? "onscreen" : "offscreen"}
-                    >
-                    
-                    <h6 className="font-medium text-white">SUPPORT</h6>
-                    <li className="py-2 text-sm">Pricing</li>
-                    <li className="py-2 text-sm">Documentation</li>
-                    <li className="py-2 text-sm">Guides</li>
-                </motion.ul>
-
-                <motion.ul
-                    initial= "offscreen"
-                    variants={cardVariantsUp4}
-                
-                    animate= {inView ? "onscreen" : "offscreen"}
-                    >
-                    
-                    <h6 className="font-medium text-white">COMPANY</h6>
+                    <h6 className="font-medium text-white">Pages</h6>
                     <li className="py-2 text-sm">About</li>
-                    <li className="py-2 text-sm">Blog</li>
-                    <li className="py-2 text-sm">Jobs</li>
-                    <li className="py-2 text-sm">Press</li>
-                    <li className="py-2 text-sm">Careers</li>
+                    <li className="py-2 text-sm">Highlights</li>
+                    <li className="py-2 text-sm">Polls</li>
+                    <li className="py-2 text-sm">Feeds</li>
                 </motion.ul>
 
                 <motion.ul
@@ -100,9 +68,9 @@ const FooterComponent= () =>{
                     animate= {inView ? "onscreen" : "offscreen"}
                     >
                     
-                    <h6 className="font-medium text-white">LEGAL</h6>
-                    <li className="py-2 text-sm">Claim</li>
-                    <li className="py-2 text-sm">Policy</li>
+                    <h6 className="font-medium text-white">Enroll</h6>
+                    <li className="py-2 text-sm">Designer</li>
+                    <li className="py-2 text-sm">Model</li>
                 </motion.ul>
 
             </div>

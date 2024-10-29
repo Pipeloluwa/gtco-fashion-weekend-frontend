@@ -75,12 +75,12 @@ const HomeSegmentComponent7 = () => {
 
     return (
         <div className='w-[75%] mx-auto'>
-            <div className='flex flex-col justify-center items-center gap-y-6'>
-                <h1 className='text-5xl tracking-widest text-orange-800'>
+            <div className='flex flex-col justify-center items-center md:gap-y-6 gap-y-4'>
+                <h1 className='md:text-5xl text-4xl text-center tracking-widest text-orange-800'>
                     {"Stay Up To Date"}
                 </h1>
 
-                <p className={`${rubikFont.className} w-[60%] mx-auto text-center`}>
+                <p className={`${rubikFont.className} md:w-[60%] w-[80%] mx-auto text-center`}>
                     {"Sign up to our newsletter and stay up to date."}
                 </p>
 
@@ -91,13 +91,13 @@ const HomeSegmentComponent7 = () => {
                     </Image>
 
 
-                    <div className='absolute left-0 right-0 top-0 bottom-0 p-8 bg-black/40 flex flex-col justify-center items-center'>
-                        <p className='w-[50%] text-center mx-auto text-white'>
-                         {" By subscribing, you'll receive the latest news on the fashion show schedule, highlights, and more. "}
+                    <div className='absolute left-0 right-0 top-0 bottom-0 md:p-8 p-6 bg-black/40 flex flex-col justify-center items-center'>
+                        <p className='md:w-[50%] w-[80%] text-center mx-auto text-white'>
+                        {" By subscribing, you'll receive the latest news on the fashion show schedule, highlights, and more. "}
                         </p>
 
 
-                        <form ref={form} onSubmit={sendEmail}className='w-[50%] mx-auto z-10 my-10 gap-y-4 flex flex-col items-center justify-between'>
+                        <form ref={form} onSubmit={sendEmail}className='md:w-[50%] w-[85%] mx-auto z-10 my-10 gap-y-4 flex flex-col items-center justify-between'>
                                 
                             <input name='subject' defaultValue={"WEBSITE NEWSLETTER EMAIL"} className='hidden'/>
 
@@ -138,7 +138,7 @@ const HomeSegmentComponent7 = () => {
                     handler={() => {setDialog1("")}} 
                     className='bg-white/70'
                     size='sm'
-                  
+                
                 >
 
                     <DialogBody className='flex items-center justify-center text-blue-800 text-2xl py-[130px]'>

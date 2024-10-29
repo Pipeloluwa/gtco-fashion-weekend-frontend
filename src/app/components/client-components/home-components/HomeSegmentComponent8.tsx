@@ -11,7 +11,7 @@ const HomeSegmentComponent8:React.FC<IEmbeddedSource> = ({source}) => {
   return (
     <div className='flex flex-col gap-y-8'>
         <div className='w-full mx-auto flex flex-col justify-center items-center gap-y-6'>
-            <h1 className='text-5xl tracking-widest text-orange-800'>
+            <h1 className='md:text-5xl text-4xl tracking-widest text-orange-800'>
                 {"Event Venue"}
             </h1>
 
@@ -30,10 +30,6 @@ const HomeSegmentComponent8:React.FC<IEmbeddedSource> = ({source}) => {
 
             </div>
         
-        </div>
-
-        <div>
-
         </div>
 
     </div>

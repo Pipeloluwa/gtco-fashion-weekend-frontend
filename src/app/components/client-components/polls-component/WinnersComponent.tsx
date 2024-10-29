@@ -14,7 +14,7 @@ const WinnersComponent:React.FC<IWinnersData> = ({winnersData}) => {
             </h1>
 
 
-            <div className='w-full grid grid-cols-3 space-x-3'>
+            <div className='w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 space-x-3'>
 
                 {
                 winnersData.map((item, index) => 

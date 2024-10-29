@@ -23,11 +23,11 @@ const HomeSegmentComponent1:React.FC<HomeSegmentComponent1Props> = ({blackOutDon
 
             {/* ++++++++++++++++++ FIRST SEGMENT ++++++++++++++++ */}
             <div className='min-h-svh w-full relative'>
-            <div className='absolute left-0 right-0 top-0 bottom-0 w-full h-full overflow-hidden'>
-                <video autoPlay muted loop className='object-cover absolute left-0 right-0 top-0 bottom-0 w-full h-full'>
-                    <source src="/videos/landingPageVideoCut.mp4" type="video/mp4"/>
-                </video>
-            </div>
+                {/* <div className='absolute left-0 right-0 top-0 bottom-0 w-full h-full overflow-hidden'>
+                    <video autoPlay muted loop className='object-cover absolute left-0 right-0 top-0 bottom-0 w-full h-full'>
+                        <source src="/videos/landingPageVideoCut.mp4" type="video/mp4"/>
+                    </video>
+                </div> */}
             
     
             <div className='absolute left-0 right-0 top-0 bottom-0 w-full h-full from-[#000000]/0 to-[#000000]/70  bg-gradient-to-b '/>
@@ -42,7 +42,7 @@ const HomeSegmentComponent1:React.FC<HomeSegmentComponent1Props> = ({blackOutDon
                         <div className={`${rubikFont.className} animate-pulse flex flex-col items-center justify-center uppercase`}>
                             <GlowCapture>
                                 <Glow color='orange' >
-                                    <div className='z-10 animated-background-text1 inline-block text-transparent hover:from-black/0 pb-2 lg:text-9xl md:text-7xl sm:text-5xl text-4xl font-extrabold  glow:bg-black glow:text-orange-500'>
+                                    <div className='z-10 animated-background-text1 inline-block text-transparent hover:from-black/0 pb-2 lg:text-9xl md:text-7xl text-6xl font-extrabold  glow:bg-black glow:text-orange-500'>
                                         <StaggerText  staggerType='letter'  staggerDuration={1.4}>
                                             {"GTCO"}
                                         </StaggerText>
@@ -64,7 +64,7 @@ const HomeSegmentComponent1:React.FC<HomeSegmentComponent1Props> = ({blackOutDon
 
 
                         <AnimatePresence key={"landingPageAnimatePresence1"}>
-                            <motion.div key={"landingPageAnimatePresence2"} initial={{x:"150%"}} animate={{x:0}} transition={{duration:3, delay:1.5, ease:easeInOut, type:"spring", bounce: 0.1}} className={`${rubikFont.className} flex md:justify-start justify-center lg:w-auto  px-2 sm:w-[50%] w-[100%] text-white lg:text-md text-lg italic`}>
+                            <motion.div key={"landingPageAnimatePresence2"} initial={{x:"150%"}} animate={{x:0}} transition={{duration:3, delay:1.5, ease:easeInOut, type:"spring", bounce: 0.1}} className={`${rubikFont.className} flex md:justify-start justify-center lg:w-auto  px-2 sm:w-[50%] w-[90%] text-white lg:text-md text-lg italic`}>
                                 <TypeIt options={{loop: true, speed:100}}>
                                     {"Stay ahead of the curve with our stylish new collection that defines modern fashion."}
                                 </TypeIt>

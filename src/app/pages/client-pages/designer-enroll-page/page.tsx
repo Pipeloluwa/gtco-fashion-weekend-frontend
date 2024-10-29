@@ -128,7 +128,7 @@ const PageIndex = () => {
     
     return (
 
-        <div className={`${rubikFont.className} text-gray-800 h-svh w-full flex overflow-hidden`}>
+        <div className={`${rubikFont.className} text-gray-800 h-svh w-full flex md:flex-row flex-col overflow-hidden`}>
             <div className='w-[50%] h-full relative overflow-hidden bg-black'>
                 <img alt='' src={"/images/pictures/woman-6670772_1280.webp"} width={200} height={0}  className='w-full h-full object-cover opacity-[80%]' />
 
