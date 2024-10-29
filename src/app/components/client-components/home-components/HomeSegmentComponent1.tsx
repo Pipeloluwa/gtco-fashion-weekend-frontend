@@ -23,11 +23,11 @@ const HomeSegmentComponent1:React.FC<HomeSegmentComponent1Props> = ({blackOutDon
 
             {/* ++++++++++++++++++ FIRST SEGMENT ++++++++++++++++ */}
             <div className='min-h-svh w-full relative'>
-                {/* <div className='absolute left-0 right-0 top-0 bottom-0 w-full h-full overflow-hidden'>
+                <div className='absolute left-0 right-0 top-0 bottom-0 w-full h-full overflow-hidden'>
                     <video autoPlay muted loop className='object-cover absolute left-0 right-0 top-0 bottom-0 w-full h-full'>
                         <source src="/videos/landingPageVideoCut.mp4" type="video/mp4"/>
                     </video>
-                </div> */}
+                </div>
             
     
             <div className='absolute left-0 right-0 top-0 bottom-0 w-full h-full from-[#000000]/0 to-[#000000]/70  bg-gradient-to-b '/>
