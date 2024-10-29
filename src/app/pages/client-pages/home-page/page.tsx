@@ -53,7 +53,7 @@ const HomeIndex = () => {
   });
 
   const countDownData= {
-    dateTime: "2024-11-03T01:02:03",
+    dateTime: "2024-11-09T01:02:03",
     picture: "/images/pictures/7.webp"
   }
   
