@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\PAPIC NATION\\TECH\\NEXT JS\\gtb_weekend_fashion\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\PAPIC NATION\\TECH\\NEXT JS\\gtb_weekend_fashion\\src\\app\\components\\admin-components\\admin-shared-components\\MenuComponent.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\admin-components\\admin-shared-components\\MenuComponent.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\PAPIC NATION\\TECH\\NEXT JS\\gtb_weekend_fashion\\src\\app\\animations\\framerAnimation\\variants.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\animations\\framerAnimation\\variants.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuComponent.tsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\PAPIC NATION\\TECH\\NEXT JS\\gtb_weekend_fashion\\src\\app\\components\\admin-components\\admin-shared-components\\MenuComponent.tsx",
+              "RelativeDocumentMoniker": "app\\components\\admin-components\\admin-shared-components\\MenuComponent.tsx",
+              "ToolTip": "C:\\Users\\USER\\Documents\\PAPIC NATION\\TECH\\NEXT JS\\gtb_weekend_fashion\\src\\app\\components\\admin-components\\admin-shared-components\\MenuComponent.tsx",
+              "RelativeToolTip": "app\\components\\admin-components\\admin-shared-components\\MenuComponent.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-26T11:37:28.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "variants.ts",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\PAPIC NATION\\TECH\\NEXT JS\\gtb_weekend_fashion\\src\\app\\animations\\framerAnimation\\variants.ts",
+              "RelativeDocumentMoniker": "app\\animations\\framerAnimation\\variants.ts",
+              "ToolTip": "C:\\Users\\USER\\Documents\\PAPIC NATION\\TECH\\NEXT JS\\gtb_weekend_fashion\\src\\app\\animations\\framerAnimation\\variants.ts",
+              "RelativeToolTip": "app\\animations\\framerAnimation\\variants.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-26T11:37:12.188Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

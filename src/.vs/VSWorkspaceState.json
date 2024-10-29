@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\animations",
+    "\\app\\animations\\framerAnimation",
+    "\\app\\components",
+    "\\app\\components\\admin-components",
+    "\\app\\components\\admin-components\\admin-shared-components"
+  ],
+  "SelectedNode": "\\app\\components\\admin-components\\admin-shared-components\\MenuComponent.tsx",
+  "PreviewInSolutionExplorer": false
+}

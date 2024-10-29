@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.orange-fg-color {
+  color: #FF8000;
+}
+
+.base-orange-bg-color {
+  background-color: #E04403;
+}
+
+
+.orange-bg-color {
+  background-color: #FF8000;
+}
+
+.black-bg-color {
+  background-color: #100C08;
+}
+
+.grid-designer{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Fully responsive columns */
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+}
+
+@layer components {
+  .orange-gradient-color{
+    @apply from-[#fd6d2f] to-[#a53100]/60 bg-gradient-to-b 
+  }
+
+  .big-button{
+    @apply  sm:h-[60px] sm:min-w-[205px] min-w-[170px] w-full h-[50px] text-xl rounded-lg shadow-sm shadow-black
+  }
+
+
+  .small-button{
+    @apply  sm:h-[45px] sm:w-[130px] h-[35px] w-[90px] text-xl rounded-lg shadow-sm shadow-black
+  }
+
+  .my-picture-style{
+    @apply overflow-hidden rounded-full shadow shadow-gray-700;
+  }
+
+  .my-image-cover-style{
+    @apply object-cover w-full h-full;
+  }
+
+  .my-button-style{
+    @apply cursor-pointer flex justify-center items-center text-[18px] sm:px-6 px-4 text-white font-bold bg-orange-800 mt-6 md:py-3 sm:py-2 h-[60px] md:h-fit rounded-xl border border-white hover:bg-white hover:border hover:border-orange-800 hover:text-orange-800;
+  }
+
+  .my-small-button-style{
+    @apply cursor-pointer flex justify-center items-center text-[14px] sm:py-2 px-4 h-[60px] md:h-fit font-bold rounded-xl;
+  }
+
+  .my-button-border-style{
+    @apply cursor-pointer flex justify-center items-center text-[18px] px-6 text-orange-800 font-bold bg-white mt-6 py-3 rounded-3xl border border-orange-800 hover:bg-orange-800 hover:border hover:border-white hover:text-white;
+  }
+  
+  .my-shadow-style{
+    @apply shadow-sm shadow-gray-500;
+  }
+
+}
+
+
+
+
+
+
+.animated-background-text1 {
+
+  background: linear-gradient(90deg, #ef6c00, white, #f9a825);
+  background-size: 300% 300%;
+  background-clip: text;
+  animation: moveBackground 5s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-size: 20px;
+}
+
+
+.animated-background-text2 {
+
+  background: linear-gradient(90deg, white, #ffb26a, white);
+  background-size: 300% 300%;
+  background-clip: text;
+  animation: moveBackground 5s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-size: 20px;
+}
+
+
+.animated-background {
+
+  background: linear-gradient(90deg, white, #ffe7d1, #dce6ff);
+  background-size: 300% 300%;
+  animation: moveBackground 5s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-size: 20px;
+}
+
+
+.animated-background-2 {
+
+  background: linear-gradient(90deg, #ffd2ac, #f4f7ff, #ffefde);
+  background-size: 300% 300%;
+  animation: moveBackground 5s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-size: 20px;
+}
+
+.animated-background-2-reverse {
+  background: linear-gradient(90deg, #ffefde, #f4f7ff, #ffd2ac);
+  background-size: 300% 300%;
+  animation: moveBackground 5s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-size: 20px;
+}
+
+
+/* Keyframes to animate the background position */
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  animation: spinner-plncf9 4s infinite;
+}
+
+.spinner::before,
+.spinner::after {
+  content: "";
+  grid-area: 1/1;
+  border: 9px solid;
+  border-radius: 50%;
+  border-color: #474bff #474bff #0000 #0000;
+  mix-blend-mode: darken;
+  animation: spinner-plncf9 1s infinite linear;
+}
+
+.spinner::after {
+  border-color: #0000 #0000 #dbdcef #dbdcef;
+  animation-direction: reverse;
+}
+
+@keyframes spinner-plncf9 {
+  100% {
+     transform: rotate(1turn);
+  }
+}
+
+
+
+/* .image-slider-container {
+}
+.image-slider-container .slick-prev:before,
+.image-slider-container .slick-next:before {
+  color: #ef6c00;
+  size: 30px !important;
+} */
+
+
+
+
+
+/* .background-pattern{
+  background:
+      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#ef6c0105 68% 70%,#0000 72%) 32px 32px/calc(2*32px) calc(2*32px),
+      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#ef6c0005 68% 70%,#0000 72%) 32px 32px/calc(2*32px) calc(2*32px),
+      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#ef6c0005 68% 70%,#0000 72%) 0 0/calc(2*32px) calc(2*32px),
+      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#ef6c0005 68% 70%,#0000 72%) 0 0/calc(2*32px) calc(2*32px),
+      repeating-conic-gradient(#ffffff 0 25%,#0000 0 50%) 0 0/calc(2*32px) calc(2*32px),
+      radial-gradient(#0000 66%,#ef6c0005 68% 70%,#0000 72%) 0 calc(32px/2)/32px 32px
+      #ffffff;
+} */
